@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\text_bold.png" />
+    <None Remove="icons\text_italic.png" />
+    <None Remove="icons\text_underline.png" />
+    <None Remove="T1-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\text_bold.png" />
+    <Resource Include="icons\text_italic.png" />
+    <Resource Include="icons\text_underline.png" />
+    <Resource Include="T1-icon.png" />
+  </ItemGroup>
+
+</Project>
